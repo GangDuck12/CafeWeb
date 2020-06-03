@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    position: relative;
+    display: flex;
+    margin: 40% 40% 5% 40%;
+}
+
+.bar{
+    border: 2px solid #333;
+    width: 40px;
+    height: 10px;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.bar:hover{
+    background: #ffffff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility:hidden;
+}
+
+.Interior{
+    overflow: hidden;
+}
+
+.Interior h1{
+    font-size: 30px;
+    padding: 30px 50px 0 50px;
+}
+
+.slide{
+    position: absolute;
+    opacity: 0;
+    /* padding: 220px 30% 220px 30%; */
+    width: 18%;
+    transition: 1s;
+}
+
+.slide img{
+    padding: 5% 80%;
+    width: 300%;
+}
+
+
+/* .s1{
+    background: url(../../images/9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.s2{
+    background: url(../../images/10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.s3{
+    background: url(../../images/12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.s4{
+    background: url(../../images/14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+#f1:checked ~ .s1,
+#f2:checked ~ .s2,
+#f3:checked ~ .s3,
+#f4:checked ~ .s4{
+    opacity: 1;
+}
+
+#f1:checked ~ .navigation label:nth-child(1),
+#f2:checked ~ .navigation label:nth-child(2),
+#f3:checked ~ .navigation label:nth-child(3),
+#f4:checked ~ .navigation label:nth-child(4){
+    background: #ffffff;
+}
+
+@media(max-width:1000px){
+    .slide{
+        padding-top: 50%;
+        padding-left: 80%;
+    }
+
+    .int h1{
+        padding-bottom: 20px;
+    }
+
+    .slide img{
+        display:none;
+    }
+
+    .navigation{
+        position: relative;
+        display: flex;
+        margin: 55% 40% 5% 40%;
+    }
+
+    .bar:hover{
+        background: #666;
+    }
+
+    .s1{
+    background: url(../../images/9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .s2{
+    background: url(../../images/10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .s3{
+    background: url(../../images/12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .s4{
+    background: url(../../images/14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+    #f1:checked ~ .navigation label:nth-child(1),
+    #f2:checked ~ .navigation label:nth-child(2),
+    #f3:checked ~ .navigation label:nth-child(3),
+    #f4:checked ~ .navigation label:nth-child(4){
+    background: #666;
+    }
+}
+
+@media(max-width:850px){
+    .navigation{
+        margin: 55% 40%;
+    }
+}
+
+@media(max-width:600px){
+       .int h1{
+           padding-bottom: 10px;
+       }
+
+       .navigation{
+           margin:54% 30% 5% 30%;
+       }
+}
+
+

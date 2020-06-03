@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.WayToCome{
+    border: 8px solid skyblue;
+    height: 635px;
+}
+
+.wayTitle h1{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.wayTitle p{
+    margin-left: 40px;
+    padding-top: 5px;
+}
+
+.contents{
+    display: flex;
+}
+.contents1{
+    width: 33%;
+}
+
+.contents2{
+    width: 33%;
+}
+
+.contents3{
+    margin-left: 150px;
+    height: 150px;
+    width: 25%;
+    background: url(../../images/11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contents3 .infor{
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 150px;
+    color: #3f3f3f
+}
+
+.infor h3{
+    padding-left: 10px;
+}
+
+.infor p{
+    padding-left: 10px;
+}
+
+.fac1{
+    background: url(../../images/10.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 70%;
+}
+.fac1:hover{
+    opacity: 0.8;
+}
+
+.fac2{
+    background: url(../../images/11.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 70%;
+}
+
+.fac2:hover{
+    opacity: 0.8;
+}
+
+.fac3{
+    background: url(../../images/14.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 70%;
+}
+
+.fac3:hover{
+    opacity: 0.8;
+}
+.fac4{
+    background: url(../../images/16.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 70%;
+}
+
+.fac4:hover{
+    opacity: 0.8;
+}
+
+@media(max-width:1000px){
+    .contents3{
+        margin-left: 30px;
+    }   
+}
+
+@media(max-width:600px){
+    .WayToCome{
+        height: 1450px;
+    }   
+
+    
+    .WayToCome .contents1{
+        width: 100%;
+    }
+    .WayToCome .contents2{
+        width: 100%;
+    }
+
+    .WayToCome .contents3{
+        display: none;
+    }
+}
+
+@media(max-width:400px){
+    .WayToCome{
+        height: 950px;
+    }
+}

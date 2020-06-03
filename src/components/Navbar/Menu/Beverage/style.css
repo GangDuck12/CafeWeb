@@ -1,0 +1,50 @@
+.beverage{
+    padding-left: 60%;
+    letter-spacing: 2px;
+    margin-top: -50px;
+}
+
+.beverage h2{
+    padding-bottom: 10px;
+}
+
+.beverageG{
+    display: flex;
+}
+.beverage ul{
+    list-style: none;
+    padding-right: 50px;
+}
+
+.beverage li {
+    padding: 10px;
+    font-weight: 200;
+    width: 200px;
+}
+
+.beverage li:hover{
+    color: #ffffff;
+}
+
+@media(max-width:1000px){
+    .beverage{
+        padding-left: 40%;
+        margin-top: -370px;
+    }
+
+    .beverageG{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:600px){
+
+    .beverage{
+        margin-top: 30px;
+        padding-left: 15%;
+    }
+
+    .beverage li{
+        padding: 0;
+    }
+}

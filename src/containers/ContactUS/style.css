@@ -1,0 +1,21 @@
+.contactUs{
+    background: #fff;
+    margin-top: 5px;
+    height: 250px;
+    font-family: 'Niconne', cursive;
+}
+
+.contactUs p{
+    padding: 10px 5px;
+    font-size: 10px;
+    color: #5e5e5e;
+}
+
+.contactUs p:hover{
+    font-weight: bold;
+}
+@media(max-width:1000px){
+    .contactUs{
+        display: none;
+    }   
+}

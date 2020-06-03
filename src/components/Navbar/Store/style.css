@@ -1,0 +1,299 @@
+.Store{
+    margin: 0;
+    padding: 15px;
+    width: 1200px;
+    height: 600px;
+    position: relative;
+}
+
+.storeTitle{
+    margin-bottom: 50px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.Store img{
+    width: 100%;
+    height: 100%;
+    margin-top: -120px;
+    opacity: 0.5;
+}
+
+.Store button:hover{
+    border: 5px solid skyblue;
+}
+
+.NewYork{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+    opacity: 0.8;
+    transition: 0.5s;
+    border: 5px solid gray;
+    background: url(../../../images/newyork.jpg);
+    background: 0px;
+}
+
+.NewYork.active{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity(0.2s ease-in-out 0.2s);
+    border: 5px solid gray;
+    background: url(../../../images/newyork.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.LA{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+    opacity: 0.8;
+    transition: 0.5s;
+    border: 5px solid gray;
+    background: url(../../../images/la.jpg);
+    background: 0px;
+}
+
+.LA.active{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity(0.2s ease-in-out 0.2s);
+    border: 5px solid gray;
+    background: url(../../../images/la.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.London{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+    opacity: 0.8;
+    transition: 0.5s;
+    border: 5px solid gray;
+    background: url(../../../images/london.jpg);
+    background: 0px;
+}
+
+.London.active{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity(0.2s ease-in-out 0.2s);
+    border: 5px solid gray;
+    background: url(../../../images/london.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Seoul{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+    opacity: 0.8;
+    transition: 0.5s;
+    border: 5px solid gray;
+    background: url(../../../images/seoul.jpg);
+    background: 0px;
+}
+
+.Seoul.active{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity(0.2s ease-in-out 0.2s);
+    border: 5px solid gray;
+    background: url(../../../images/seoul.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Zurich{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+    opacity: 0.8;
+    transition: 0.5s;
+    border: 5px solid gray;
+    background: url(../../../images/zurich.jpg);
+    background: 0px;
+}
+
+.Zurich.active{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity(0.2s ease-in-out 0.2s);
+    border: 5px solid gray;
+    background: url(../../../images/zurich.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Hongkong{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+    opacity: 0.8;
+    transition: 0.5s;
+    border: 5px solid gray;
+    background: url(../../../images/honkong.jpg);
+    background: 0px;
+}
+
+.Hongkong.active{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity(0.2s ease-in-out 0.2s);
+    border: 5px solid gray;
+    background: url(../../../images/honkong.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Melbourne{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+    opacity: 0.8;
+    transition: 0.5s;
+    border: 5px solid gray;
+    background: url(../../../images/melbourne.jpg);
+    background: 0px;
+}
+
+.Melbourne.active{
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity(0.2s ease-in-out 0.2s);
+    border: 5px solid gray;
+    background: url(../../../images/melbourne.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:1000px){
+    .Store{
+        padding: 10px;
+    }
+
+    .Store img{
+        height: 580px;
+    }
+}
+@media(max-width:720px){
+    .Store img{
+        height: 550px;
+        margin-top: -135px;
+    }
+
+    .Store button{
+        width: 30px;
+        height: 30px;
+        border: 3px solid gray;
+    }
+
+    .Store button.active{
+        width: 150px;
+        height: 100px;
+    }
+}
+@media(max-width:550px){
+    .Store img{
+        margin-top: -110px;
+    }
+
+    .Store button{
+        width: 25px;
+        height: 25px;
+        border: 3px solid gray;
+    }
+
+    .storeTitle h2{
+        font-size: 20px;
+    }
+    .storeTitle p{
+        font-size: 12px;
+    }
+}
+@media(max-width:425px){
+    .Store img{
+        margin-top: -140px;
+        height: 580px;
+    }
+}

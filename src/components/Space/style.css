@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Space{
+    background: url(../../images/cafeCover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+.title{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+.title h1{
+    font-size: 30px;
+}
+.title p{
+    padding-top: 20px;
+}
+
+.contents{
+    display: flex;
+    margin: 5% 0;
+    padding: 0 10%;
+}
+
+.contents h2:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contents p{
+    padding-bottom: 8%;
+}
+
+.leftCon{
+    padding-right: 13%;
+}
+
+.centerCon{
+    padding: 3%;
+}
+
+.rightCon{
+    padding: 3%;
+}
+
+@media(max-width:1000px){
+    .contents{
+        font-size: 15px;
+        padding: 0 10%;
+    }
+    .contents p{
+        padding-bottom: 8px;
+    }
+}
+@media(max-width:600px){
+    .Space{
+        height: 600px;
+    }
+    
+    .contents{
+        flex-direction: column;
+    }
+
+    .contents h2{
+        font-size: 20px;
+    }
+    .contents h2:hover{
+        font-size: 20px;
+        color: #ffffff;
+    }
+    .contents p{
+        font-size: 10px;
+    }
+    .centerCon{
+        padding: 0;
+    }
+    
+    .rightCon{
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,36 @@
+.Menu{
+    width: 80%;
+    margin: 10px;
+    background: url(../../../images/coffeeBean.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.menuBack{
+    background: #ffffff;
+    height: 660px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menuTitle{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media(max-width:1000px){
+    .Menu{
+        width: 100%;
+    }
+    
+}
+
+@media(max-width:400px){
+    .Menu{
+        height: 800px;
+        background: url(../../../images/coffeeBean2.jpg);
+    }
+    .menuBack{
+        height: 800px;
+    }
+}
