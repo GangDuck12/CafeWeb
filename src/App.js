@@ -15,8 +15,7 @@ function App() {
       <div className="App">
         <Header />
         <div className="Main">
-          <Home />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/CafeWeb" component={Home}/>
           <Route path="/menu" component={Menu} />
           <Route path="/store" component={Store} />
           <Route path="/new" component={New} />

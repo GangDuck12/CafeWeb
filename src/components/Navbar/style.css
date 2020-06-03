@@ -57,7 +57,6 @@
         left: 50%;
         text-align: center;
         transition: 0.5s;
-        transform: translateX(150%);
         opacity: 0;
     }
 
@@ -75,7 +74,6 @@
     
     .navCon.active{
         opacity: 1;
-        transform: translateX(0);
     }
 
     .toggleIn{
