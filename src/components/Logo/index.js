@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom';
 const Logo = (props) => {
   return(
     <div className="logo">
-        <NavLink to="/">CafeWebDesign</NavLink>
+        <NavLink to="/CafeWeb">CafeWebDesign</NavLink>
     </div>
    )
 
