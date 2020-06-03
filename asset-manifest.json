@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CafeWeb/static/css/main.ae7dad45.chunk.css",
-    "main.js": "/CafeWeb/static/js/main.016b6ecc.chunk.js",
-    "main.js.map": "/CafeWeb/static/js/main.016b6ecc.chunk.js.map",
+    "main.css": "/CafeWeb/static/css/main.3c94321e.chunk.css",
+    "main.js": "/CafeWeb/static/js/main.ad6e4cca.chunk.js",
+    "main.js.map": "/CafeWeb/static/js/main.ad6e4cca.chunk.js.map",
     "runtime-main.js": "/CafeWeb/static/js/runtime-main.0fa06855.js",
     "runtime-main.js.map": "/CafeWeb/static/js/runtime-main.0fa06855.js.map",
     "static/js/2.a4959814.chunk.js": "/CafeWeb/static/js/2.a4959814.chunk.js",
     "static/js/2.a4959814.chunk.js.map": "/CafeWeb/static/js/2.a4959814.chunk.js.map",
     "index.html": "/CafeWeb/index.html",
-    "precache-manifest.0b821ad47f2a74c6410f6f6327faebbc.js": "/CafeWeb/precache-manifest.0b821ad47f2a74c6410f6f6327faebbc.js",
+    "precache-manifest.508a119b3f5f8c1c66d19162f3fa7491.js": "/CafeWeb/precache-manifest.508a119b3f5f8c1c66d19162f3fa7491.js",
     "service-worker.js": "/CafeWeb/service-worker.js",
-    "static/css/main.ae7dad45.chunk.css.map": "/CafeWeb/static/css/main.ae7dad45.chunk.css.map",
+    "static/css/main.3c94321e.chunk.css.map": "/CafeWeb/static/css/main.3c94321e.chunk.css.map",
     "static/js/2.a4959814.chunk.js.LICENSE.txt": "/CafeWeb/static/js/2.a4959814.chunk.js.LICENSE.txt",
     "static/media/style.css": "/CafeWeb/static/media/zurich.1fe26be1.jpg",
     "static/media/21.jpg": "/CafeWeb/static/media/21.f3fee3dc.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.0fa06855.js",
     "static/js/2.a4959814.chunk.js",
-    "static/css/main.ae7dad45.chunk.css",
-    "static/js/main.016b6ecc.chunk.js"
+    "static/css/main.3c94321e.chunk.css",
+    "static/js/main.ad6e4cca.chunk.js"
   ]
 }
