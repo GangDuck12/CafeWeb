@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c345a433583e428fd5c70a75029d58d7",
+    "revision": "fe94e22fef3d099ca579b282b02632b3",
     "url": "/CafeWeb/index.html"
   },
   {
-    "revision": "e1b5b744cbdc594efc05",
+    "revision": "de1bb3a55b797d78e00a",
     "url": "/CafeWeb/static/css/main.3c94321e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CafeWeb/static/js/2.a4959814.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1b5b744cbdc594efc05",
-    "url": "/CafeWeb/static/js/main.ad6e4cca.chunk.js"
+    "revision": "de1bb3a55b797d78e00a",
+    "url": "/CafeWeb/static/js/main.3837e700.chunk.js"
   },
   {
     "revision": "a5ef18978bbff6f75479",
