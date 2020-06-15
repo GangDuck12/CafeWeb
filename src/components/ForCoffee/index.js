@@ -3,14 +3,14 @@ import './style.css';
 
 /**
 * @author
-* @function WayToCome
+* @function ForCoffee
 **/
 
-const WayToCome = (props) => {
+const ForCoffee = (props) => {
   return(
-    <div className="WayToCome">
+    <div className="ForCoffee">
       <div className="wayTitle">
-        <h1>Way To Come</h1>
+        <h1>Efforts for coffee</h1>
         <p>People, memories and coffee. Everyone looks at a space that is a memory.</p>
       </div>
       <div className="contents">
@@ -36,4 +36,4 @@ const WayToCome = (props) => {
 
  }
 
-export default WayToCome
+export default ForCoffee

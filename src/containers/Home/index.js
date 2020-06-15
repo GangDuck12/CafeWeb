@@ -3,7 +3,7 @@ import './style.css';
 import HomeCoffee from '../../components/HomeCoffee';
 import Interior from '../../components/Interior';
 import Space from '../../components/Space';
-import WayToCome from '../../components/WayToCome';
+import ForCoffee from '../../components/ForCoffee';
 
 /**
 * @author
@@ -34,7 +34,7 @@ const Home = (props) => {
         <Space />
       </section>
       <section>
-        <WayToCome />
+        <ForCoffee />
       </section>
     </div>
    )

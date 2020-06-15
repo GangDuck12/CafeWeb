@@ -9,6 +9,8 @@ import './style.css';
 
 const Store = (props) => { 
 
+  alert('Click a point on the map');
+
   const [newyork,setNewyork] = useState(false);
   const [la,setLa] = useState(false);
   const [ld,setLd] = useState(false);
