@@ -39,7 +39,7 @@
     padding-bottom: 30px;
 }
 
-@media(max-width:1000px){
+@media(max-width:1024px){
     .New{
         width: 100%;
     }

@@ -8,6 +8,7 @@ import './style.css';
 **/
 
 const HomeCoffee = (props) => {
+    console.log('homecoffee render');
   return(
     <div className="HomeCoffee">
         <h2>Coffee Beans</h2>

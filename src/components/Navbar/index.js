@@ -8,7 +8,7 @@ import {NavLink} from 'react-router-dom';
 **/
 
 const Navbar = (props) => {
-
+    console.log('navbar render');
     const[search,setSearch] =useState(false);
     const[toggleOn,setToggle] =useState(false);
 

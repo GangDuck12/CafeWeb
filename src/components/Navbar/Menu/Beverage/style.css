@@ -26,7 +26,7 @@
     color: #ffffff;
 }
 
-@media(max-width:1000px){
+@media(max-width:1024px){
     .beverage{
         padding-left: 40%;
         margin-top: -370px;

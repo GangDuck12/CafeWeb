@@ -7,6 +7,7 @@ import './style.css';
 **/
 
 const ContactUS = (props) => {
+  console.log('contactUS');
   return(
     <div className="contactUs">
         <p>Phone : 051-203-1910 </p>

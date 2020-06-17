@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom';
 **/
 
 const Logo = (props) => {
+  console.log('logo render');
   return(
     <div className="logo">
         <NavLink to="/CafeWeb">CafeWebDesign</NavLink>

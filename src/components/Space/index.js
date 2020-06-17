@@ -7,7 +7,7 @@ import './style.css';
 **/
 
 const Space = (props) => {
-  
+  console.log('space render');
   return(
     <div className="Space">
       <div className="title">

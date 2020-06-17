@@ -11,6 +11,7 @@ import ForCoffee from '../../components/ForCoffee';
 **/
 
 const Home = (props) => {
+  console.log('Home render');
   return(
     <div className="Home">
       <div className="img">

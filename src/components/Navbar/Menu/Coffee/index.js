@@ -7,6 +7,7 @@ import './style.css';
 **/
 
 const Coffee = (props) => {
+  console.log('coffee render');
   return(
     <div className="coffee">
         <h2>Coffee</h2>

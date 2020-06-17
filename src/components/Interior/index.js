@@ -11,7 +11,7 @@ import './style.css';
 **/
 
 const Interior = (props) => {
-
+  console.log('interior render');
   return(
     <div className="Interior">
         <div className="int">

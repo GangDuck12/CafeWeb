@@ -10,6 +10,7 @@ import Dessert from './Dessert';
 **/
 
 const Menu = (props) => {
+  console.log('menu render');
   return(
     <div className="Menu">
       <div className="menuBack">

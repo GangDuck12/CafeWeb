@@ -49,7 +49,7 @@
     padding: 3%;
 }
 
-@media(max-width:1000px){
+@media(max-width:1024px){
     .contents{
         font-size: 15px;
         padding: 0 10%;

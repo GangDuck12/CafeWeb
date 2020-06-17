@@ -7,6 +7,7 @@ import './style.css';
 **/
 
 const Dessert = (props) => {
+  console.log('dessert render');
   return(
     <div className="dessert">
         <h2>Dessert</h2>

@@ -247,7 +247,7 @@
     background-position: center;
 }
 
-@media(max-width:1000px){
+@media(max-width:1024px){
     .Store{
         padding: 10px;
     }

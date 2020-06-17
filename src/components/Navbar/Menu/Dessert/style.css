@@ -23,9 +23,9 @@
 }
 
 
-@media(max-width:1000px){
+@media(max-width:1024px){
     .dessert{
-        padding-left: 78%;
+        padding-left: 70%;
         margin-top: -370px;
     }
 }

@@ -10,6 +10,7 @@ import New from './components/Navbar/New';
 import ContactUS from './containers/ContactUS';
 
 function App() {
+  console.log('App render');
   return (
     <Router>
       <div className="App">

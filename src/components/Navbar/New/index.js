@@ -17,7 +17,7 @@ import './style.css';
 **/
 
 const New = (props) => {
-
+  console.log('new render');
   const[data,setData] = useState([
     {id:1, img:(img1), title:"1stNew", desc:"description"},
     {id:2, img:(img2), title:"2ndNew", desc:"description"},

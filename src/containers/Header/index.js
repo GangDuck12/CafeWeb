@@ -9,6 +9,7 @@ import Navbar from '../../components/Navbar';
 **/
 
 const Header = (props) => {
+  console.log('header render');
   return(
     <header className="header">
         <Logo />

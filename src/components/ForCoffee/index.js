@@ -7,6 +7,7 @@ import './style.css';
 **/
 
 const ForCoffee = (props) => {
+  console.log('forCoffee render');
   return(
     <div className="ForCoffee">
       <div className="wayTitle">

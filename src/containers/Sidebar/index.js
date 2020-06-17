@@ -8,6 +8,7 @@ import './style.css';
 **/
 
 const Sidebar = (props) => {
+  console.log('sidebar render');
   return(
     <div className="sidebar">
         <img className="sideImg" src={side} alt="sideImg" ></img>
