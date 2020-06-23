@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.WayToCome{
+.ForCoffee{
     border: 8px solid skyblue;
     height: 635px;
 }
@@ -102,25 +102,25 @@
 }
 
 @media(max-width:600px){
-    .WayToCome{
+    .ForCoffee{
         height: 1450px;
     }   
 
     
-    .WayToCome .contents1{
+    .ForCoffee .contents1{
         width: 100%;
     }
-    .WayToCome .contents2{
+    .ForCoffee .contents2{
         width: 100%;
     }
 
-    .WayToCome .contents3{
+    .ForCoffee .contents3{
         display: none;
     }
 }
 
 @media(max-width:400px){
-    .WayToCome{
+    .ForCoffee{
         height: 950px;
     }
 }
