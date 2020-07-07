@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cafeweb/static/css/main.81f6ba3a.chunk.css",
+    "main.css": "/cafeweb/static/css/main.730cc3ec.chunk.css",
     "main.js": "/cafeweb/static/js/main.87fad532.chunk.js",
     "main.js.map": "/cafeweb/static/js/main.87fad532.chunk.js.map",
     "runtime-main.js": "/cafeweb/static/js/runtime-main.f6625490.js",
@@ -8,9 +8,9 @@
     "static/js/2.a4959814.chunk.js": "/cafeweb/static/js/2.a4959814.chunk.js",
     "static/js/2.a4959814.chunk.js.map": "/cafeweb/static/js/2.a4959814.chunk.js.map",
     "index.html": "/cafeweb/index.html",
-    "precache-manifest.9b5465bd694eea43c91c8ab58758b7f2.js": "/cafeweb/precache-manifest.9b5465bd694eea43c91c8ab58758b7f2.js",
+    "precache-manifest.94694754f0e7b63d825a2c8d20c0e6bc.js": "/cafeweb/precache-manifest.94694754f0e7b63d825a2c8d20c0e6bc.js",
     "service-worker.js": "/cafeweb/service-worker.js",
-    "static/css/main.81f6ba3a.chunk.css.map": "/cafeweb/static/css/main.81f6ba3a.chunk.css.map",
+    "static/css/main.730cc3ec.chunk.css.map": "/cafeweb/static/css/main.730cc3ec.chunk.css.map",
     "static/js/2.a4959814.chunk.js.LICENSE.txt": "/cafeweb/static/js/2.a4959814.chunk.js.LICENSE.txt",
     "static/media/style.css": "/cafeweb/static/media/zurich.1fe26be1.jpg",
     "static/media/21.jpg": "/cafeweb/static/media/21.f3fee3dc.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.f6625490.js",
     "static/js/2.a4959814.chunk.js",
-    "static/css/main.81f6ba3a.chunk.css",
+    "static/css/main.730cc3ec.chunk.css",
     "static/js/main.87fad532.chunk.js"
   ]
 }
