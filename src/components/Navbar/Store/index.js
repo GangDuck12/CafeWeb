@@ -9,7 +9,6 @@ import './style.css';
 
 const Store = (props) => { 
   console.log('store render');
-  alert('Click a point on the map');
 
   const [newyork,setNewyork] = useState(false);
   const [la,setLa] = useState(false);
