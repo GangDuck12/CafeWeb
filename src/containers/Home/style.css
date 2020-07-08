@@ -24,7 +24,7 @@
     width:100%;
     height: 500px;
     padding-top: 60px;
-    /* animation: fade 16s infinite; */
+    animation: fade 16s infinite;
     background: url(../../images/1.jpg);
     background-position: center;
     background-size: cover;
